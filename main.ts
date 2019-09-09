@@ -1,5 +1,9 @@
 // MakerBit Serial MP3 blocks supporting Catalex Serial MP3 1.0
 // Version for Calliope V1 Core 
+
+//% color=#0fbc11 icon="\u272a" block="MakerBit"
+//% category="MakerBit"
+
 const enum Mp3Repeat {
     //% block="once"
     No = 0,
