@@ -9,7 +9,7 @@
     "files": [
         "README.md",
         "main.ts",
-        "_locales/de/MakerBit-MP3-strings.json"
+        "_locales/de/pxt-makerbit-mp3-calliope1.json"
     ],
     "testFiles": [
         "test.ts"
