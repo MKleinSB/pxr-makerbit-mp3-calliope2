@@ -1,6 +1,6 @@
 {
     "name": "makerbit-mp3",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "description": "Erweiterung für den Catalex Serial MP3 Player. Angepasst an Calliope Mini V2 Core",
     "dependencies": {
         "core": "*",
