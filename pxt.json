@@ -1,7 +1,7 @@
 {
-    "name": "pxt-makerbit-mp3-calliope1",
-    "version": "0.0.5",
-    "description": "Erweiterung für den Catalex Serial MP3 Player. Angepasst an Calliope Mini V1 Core",
+    "name": "makerbit-mp3",
+    "version": "0.0.6",
+    "description": "Erweiterung für den Catalex Serial MP3 Player. Angepasst an Calliope Mini V2 Core",
     "dependencies": {
         "core": "*",
         "radio": "*"
@@ -9,7 +9,7 @@
     "files": [
         "README.md",
         "main.ts",
-        "_locales/de/pxt-makerbit-mp3-calliope1-strings.json"
+        "_locales/de/makerbit-mp3-strings.json"
     ],
     "testFiles": [
         "test.ts"
