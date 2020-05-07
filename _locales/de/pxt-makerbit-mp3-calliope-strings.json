@@ -1,0 +1,19 @@
+{
+  "makerbit.playType.type1|block": "Abspielen",
+  "makerbit.playType.type2|block": "Stopp",
+  "makerbit.playType.type3|block": "Nächster Titel",
+  "makerbit.playType.type4|block": "Vorheriger Titel",
+  "makerbit.playType.type5|block": "Pause",
+  "makerbit.yesOrNot.type1|block": "Nein",
+  "makerbit.yesOrNot.type2|block": "Ja",
+  "makerbit.MP3_setSerial|block": "verbinde MP3-Player mit RX an %pinRX|und TX an %pinTX",
+  "makerbit.execute|block": "führe Befehl aus：%myType",
+  "makerbit.setTracking|block": "spiele MP3-Titel %tracking|Wiederholung：%myAns",
+  "makerbit.folderPlay|block": "spiele im Verzeichnis %folderNum| den MP3-Titel %fileNum|　Wiederholung：%myAns",
+  "makerbit.setLoop|block": "wiederhole alle MP3-Titel der SD-Karte endlos",
+  "makerbit.setLoopFolder|block": "wiederhole alle MP3-Titel im Verzeichnis %folderNum| endlos",
+  "makerbit.setVolume|block": "setze Lautstärke (0~48):%volume",
+  "makerbit|block": "MakerBit",
+  "{id:category}Makerbit": "Makerbit",
+  "{id:subcategory}MP3": "MP3"
+}
