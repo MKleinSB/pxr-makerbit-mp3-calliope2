@@ -2,7 +2,7 @@
 // Version for Calliope V2 Core 
 
 //% color=#0fbc11 icon="\u272a" block="MakerBit"
-//% category="mp3"
+
 /**
 * Original: DFPlayer mini的函數 from https://github.com/lioujj/pxt-mp3
 */
@@ -42,8 +42,9 @@ namespace makerbit {
         type2 = 1
     }
 
-    //% blockId="MP3_setSerial" block="set DFPlayer mini RX to %pinRX|TX to %pinTX"
+    //% blockId="MP3_setSerial" block="set serial mp3 RX to %pinRX|TX to %pinTX"
     //% weight=100 blockGap=20
+    //% subcategory="MP3"
     export function MP3_setSerial(pinRX: SerialPin, pinTX: SerialPin): void {
         serial.redirect(
             pinRX,
@@ -66,6 +67,7 @@ namespace makerbit {
     }
     //% blockId="execute" block="execute procedure:%myType"
     //% weight=90 blockExternalInputs=true blockGap=20
+    //% subcategory="MP3"
     export function execute(myType: playType): void {
         CMD = myType
         para1 = 0x00
@@ -79,6 +81,7 @@ namespace makerbit {
 
     //% blockId="setTracking" block="play the mp3 on the track:%tracking|repeat:%myAns"
     //% weight=85 blockGap=20 tracking.min=1 tracking.max=255
+    //% subcategory="MP3"
     export function setTracking(tracking: number, myAns: yesOrNot): void {
         CMD = 0x03
         para1 = 0x00
@@ -96,6 +99,7 @@ namespace makerbit {
 
     //% blockId="folderPlay" block="play the mp3 in the folder:%folderNum|filename:%fileNum|repeat:%myAns"
     //% weight=80 blockGap=20 folderNum.min=1 folderNum.max=99 fileNum.min=1 fileNum.max=255
+    //% subcategory="MP3"
     export function folderPlay(folderNum: number, fileNum: number, myAns: yesOrNot): void {
         CMD = 0x0F
         para1 = folderNum
@@ -111,6 +115,7 @@ namespace makerbit {
 
     //% blockId="setLoop" block="loop play all the MP3s in the SD card"
     //% weight=75 blockGap=20 
+    //% subcategory="MP3"
     export function setLoop(): void {
         CMD = 0x11
         para1 = 0
@@ -124,6 +129,7 @@ namespace makerbit {
 
     //% blockId="setLoopFolder" block="loop play all the MP3s in the folder:%folderNum"
     //% weight=73 blockGap=20 folderNum.min=1 folderNum.max=99
+    //% subcategory="MP3"
     export function setLoopFolder(folderNum: number): void {
         CMD = 0x17
         para1 = 0
@@ -138,6 +144,7 @@ namespace makerbit {
 
     //% blockId="setVolume" block="set volume(0~48):%volume"
     //% weight=70 blockGap=20 volume.min=0 volume.max=48
+    //% subcategory="MP3"
     export function setVolume(volume: number): void {
         CMD = 0x06
         para1 = 0
